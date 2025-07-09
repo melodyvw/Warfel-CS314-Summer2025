@@ -15,12 +15,17 @@ window.geometry("300x100") #set WxH
 name = "Melody"
 message = tkinter.StringVar() #allows label to be updated with .set()
 
+#frame?
+button_frame = tkinter.Frame(window)
+button_frame.pack(side=tkinter.TOP)
 #create buttons
-morning_button = tkinter.Button(window, text="Morning", command=click_morning)
-afternoon_button = tkinter.Button(window, text="Afternoon", command=click_afternoon)
+morning_button = tkinter.Button(button_frame, text="Morning", command=click_morning)
+afternoon_button = tkinter.Button(button_frame, text="Afternoon", command=click_afternoon)
 #pack buttons
 morning_button.pack(side=tkinter.LEFT)
 afternoon_button.pack(side=tkinter.LEFT)
+
+
 #label
 lbl_greeting = tkinter.Label(window, textvariable=message)
 lbl_greeting.pack(side=tkinter.LEFT)
