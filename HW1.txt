@@ -6,7 +6,7 @@ F-5: Energy
 F-6: Money
 F-7: Pre-game configuration
 F-8 Step-based movement
-F-9: Terrain-based energy drain (terrain types)
+F-9: Terrain Types (varying energy drain)
 F-10: Water terrain
 F-11: Boat movement allowable on water
 F-12: Spending money on Energy upgrades and items
@@ -15,3 +15,4 @@ F-14: Binoculars
 F-15: Map & player memory of terrain
 F-16: Start screen
 F-17: Clues
+F-18: Inventory
