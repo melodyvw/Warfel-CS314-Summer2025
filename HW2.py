@@ -7,8 +7,8 @@ import tkinter
 #internal variables
 x = 25 #x coord (1-50)
 y = 25 #y coord (1-50)
-max = 50
-min = 1
+max = 50 #maximum x or y coordinate
+min = 1 #minimum x or y coordinate
 
 #event handlers
 def move_up():
@@ -47,7 +47,7 @@ window.title("Homework 2") #set title
 window.geometry("300x100") #set WxH
 #window variables
 location = tkinter.StringVar() #allows label to be updated with .set()
-buttonwidth=10
+buttonwidth=10 #width of the movement buttons
 
 #frames & packing
 #controls frame
